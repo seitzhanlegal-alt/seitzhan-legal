@@ -9,9 +9,34 @@ export function Contact() {
   const { t } = useLanguage();
   const [sent, setSent] = useState(false);
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+  
+    const formData = new FormData(e.currentTarget);
+  
+    const name = String(formData.get("name") || "");
+    const phone = String(formData.get("phone") || "");
+    const message = String(formData.get("message") || "");
+  
+    const response = await fetch("https://seitzhanlegalbot.onrender.com/api/lead", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        phone,
+        message,
+      }),
+    });
+  
+    if (!response.ok) {
+      alert("Ошибка при отправке заявки");
+      return;
+    }
+  
     setSent(true);
+    e.currentTarget.reset();
   }
 
   return (
