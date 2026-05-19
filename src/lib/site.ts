@@ -9,7 +9,7 @@ export const SITE_URL = (
 
 export const SITE_AUTHOR = "Сейтжан Ерқожа";
 
-export const LOGO_PATH = "/logotype.jpg";
+export const LOGO_PATH = "/";
 
 export const OG_IMAGE_PATH = "/og-image.jpg";
 

@@ -89,7 +89,7 @@ export type TranslationTree = {
 export const translations: Record<Lang, TranslationTree> = {
   en: {
     meta: {
-      title: "Seitjan & Partners | Business & Private Law",
+      title: "Seitzhan Legal | Business & Private Law",
       description:
         "Professional legal support for companies and individuals: consultation, contracts, disputes, and court representation.",
     },
@@ -287,7 +287,7 @@ export const translations: Record<Lang, TranslationTree> = {
       privacy: "Confidentiality policy applies to all inquiries.",
     },
     brand: {
-      firmName: "Seitjan & Partners",
+      firmName: "Seitzhan Legal",
       lawyerTitle: "Yerkhoja Seitjan, Attorney-at-Law",
     },
     waPrefill: "Hello, I would like to get a legal consultation.",
@@ -299,7 +299,7 @@ export const translations: Record<Lang, TranslationTree> = {
   },
   ru: {
     meta: {
-      title: "Сейтжан и партнеры | Корпоративное и частное право",
+      title: "Seitzhan Legal  | Корпоративное и частное право",
       description:
         "Профессиональная юридическая поддержка для бизнеса и частных лиц: консультации, договоры, споры и представительство в суде.",
     },
@@ -497,7 +497,7 @@ export const translations: Record<Lang, TranslationTree> = {
       privacy: "К режиму конфиденциальности относятся все обращения.",
     },
     brand: {
-      firmName: "Сейтжан и партнеры",
+      firmName: "Seitzhan Legal",
       lawyerTitle: "Еркожа Сейтжан, адвокат",
     },
     waPrefill: "Здравствуйте, я хотел(а) бы получить юридическую консультацию.",
@@ -509,7 +509,7 @@ export const translations: Record<Lang, TranslationTree> = {
   },
   kz: {
     meta: {
-      title: "Сейтжан и партнеры | Бизнес және жеке құқық",
+      title: "Seitzhan Legal | Бизнес және жеке құқық",
       description:
         "Компаниялар мен жеке тұлғаларға кәсіби заңгерлік қолдау: кеңес, шарттар, даулар және сотта өкілдік ету.",
     },
@@ -707,7 +707,7 @@ export const translations: Record<Lang, TranslationTree> = {
       privacy: "Құпиялылық режимі барлық сұрауларға қолданылады.",
     },
     brand: {
-      firmName: "Сейтжан и партнеры",
+      firmName: "Seitzhan Legal",
       lawyerTitle: "Ерқожа Сейтжан, адвокат",
     },
     waPrefill: "Сәлеметсіз бе, мен заңгерлік кеңес алғым келеді.",

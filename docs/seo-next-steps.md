@@ -26,7 +26,7 @@ Use this checklist after you purchase a domain and are ready to go live.
 - [ ] Add office photos to `/public` and use on Google Business Profile / social
 - [ ] Replace placeholder `sameAs` URLs in `src/components/seo/JsonLd.tsx` with real social profiles
 - [ ] Publish blog articles (replace “coming soon” cards on `/blog`)
-- [ ] Add `/public/logotype.jpg` and `/public/og-image.jpg`
+- [ ] Add `/public/` and `/public/og-image.jpg`
 
 ## Ongoing
 
