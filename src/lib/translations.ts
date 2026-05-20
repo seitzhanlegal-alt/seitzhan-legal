@@ -294,7 +294,7 @@ export const translations: Record<Lang, TranslationTree> = {
     office: {
       address: "Almaty city, Akbulak district, 34 Syzdykova St.",
       hours: "Mon–Fri: 10:00–18:00; by appointment on weekends",
-      email: "office@seitjanlegal.example",
+      email: "seitzhanlegal@gmail.com",
     },
   },
   ru: {
@@ -504,7 +504,7 @@ export const translations: Record<Lang, TranslationTree> = {
     office: {
       address: "город Алматы, мкр.Акбулак, ул.Сыздыкова 34",
       hours: "Пн–Пт: 10:00–18:00; в выходные — по предварительной записи",
-      email: "office@seitjanlegal.example",
+      email: "seitzhanlegal@gmail.com",
     },
   },
   kz: {
@@ -714,7 +714,7 @@ export const translations: Record<Lang, TranslationTree> = {
     office: {
       address: "Алматы қаласы, ш / а.Ақбұлақ, Сыздықов көшесі, 34",
       hours: "Дс–Жм: 10:00–18:00; демалыста — алдын ала жазылу бойынша",
-      email: "office@seitjanlegal.example",
+      email: "seitzhanlegal@gmail.com",
     },
   },
 };
