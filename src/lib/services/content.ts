@@ -13,13 +13,13 @@ const pages: ServiceCatalog = {
   "lawyer-almaty": {
     ru: ru({
       meta: {
-        title: "Адвокат в Алматы | Юридическая защита и консультации",
+        title: "Юрист-консультант в Алматы | Юридическая защита и консультации",
         description:
-          "Адвокат в Алматы: консультации, подготовка документов, представительство в суде и защита интересов клиентов в Казахстане.",
+          "Юрист-консультант в Алматы: консультации, подготовка документов, представительство в суде и защита интересов клиентов в Казахстане.",
         keywords:
-          "адвокат Алматы, юрист Алматы, юридические услуги Алматы, адвокат Казахстан",
+          "юрист-консультант Алматы, юрист Алматы, юридические услуги Алматы, юрист Казахстан",
       },
-      h1: "Адвокат в Алматы",
+      h1: "Юрист-консультант в Алматы",
       intro:
         "Профессиональная юридическая помощь для частных лиц и бизнеса в Алматы. Работаем с делами разной сложности — от консультации до представительства в суде.",
       includes: [
@@ -32,7 +32,7 @@ const pages: ServiceCatalog = {
         "Получили судебную повестку или претензию",
         "Нужна защита в споре с контрагентом или работодателем",
         "Требуется сопровождение сделки или договора",
-        "Нужен независимый взгляд адвоката до принятия решения",
+        "Нужен независимый взгляд юрист-консультанта до принятия решения",
       ],
       processSteps: [
         "Связь через WhatsApp, телефон или форму на сайте",
@@ -65,12 +65,12 @@ const pages: ServiceCatalog = {
     }),
     kz: ru({
       meta: {
-        title: "Алматыдағы адвокат | Заңгерлік қорғау",
+        title: "Алматыдағы юрист-консультант | Заңгерлік қорғау",
         description:
-          "Алматыдағы адвокат: кеңес, құжаттар дайындау, сотта өкілдік және клиент мүддесін қорғау.",
-        keywords: "адвокат Алматы, заңгер Алматы, заңгерлік қызметтер",
+          "Алматыдағы юрист-консультант: кеңес, құжаттар дайындау, сотта өкілдік және клиент мүддесін қорғау.",
+        keywords: "юрист-консультант Алматы, заңгер Алматы, заңгерлік қызметтер",
       },
-      h1: "Алматыдағы адвокат",
+      h1: "Алматыдағы юрист-консультант",
       intro:
         "Алматыда жеке тұлғалар мен бизнес үшін кәсіби заңгерлік көмек. Кеңестен сотта өкілдікке дейін.",
       includes: [
@@ -625,6 +625,589 @@ const pages: ServiceCatalog = {
       relatedSlugs: ["court-representation", "debt-recovery"],
     }),
   },
+  "bankruptcy-solvency": {
+  ru: ru({
+    meta: {
+      title: "Банкротство и восстановление платежеспособности в Алматы",
+      description:
+        "Юридическая помощь по вопросам банкротства, восстановления платежеспособности, реструктуризации долгов и защиты интересов должника.",
+      keywords:
+        "банкротство Алматы, восстановление платежеспособности, юрист по банкротству, реструктуризация долгов",
+    },
+    h1: "Банкротство и восстановление платежеспособности",
+    intro:
+      "Юридическое сопровождение по вопросам банкротства, анализа задолженности, восстановления платежеспособности и выбора законного пути решения финансовых обязательств.",
+    includes: [
+      "Консультация по банкротству физических лиц",
+      "Анализ задолженности и финансового положения",
+      "Подготовка документов для процедуры банкротства",
+      "Сопровождение восстановления платежеспособности",
+      "Взаимодействие с кредиторами и государственными органами",
+    ],
+    whenNeeded: [
+      "Имеются просроченные кредиты или долги",
+      "Нет возможности исполнять финансовые обязательства",
+      "Нужно оценить риски банкротства",
+      "Требуется восстановление платежеспособности",
+    ],
+    processSteps: [
+      "Первичная консультация и анализ ситуации",
+      "Проверка долгов, доходов и имущества",
+      "Выбор подходящей процедуры",
+      "Подготовка и подача документов",
+      "Сопровождение процесса до результата",
+    ],
+    documents: [
+      "Удостоверение личности",
+      "Кредитные договоры",
+      "Справки о задолженности",
+      "Сведения о доходах",
+      "Документы на имущество",
+      "Переписка с банками или кредиторами",
+    ],
+    faq: [
+      {
+        question: "Можно ли списать долги через банкротство?",
+        answer:
+          "Возможность списания долгов зависит от финансового положения, состава задолженности и соблюдения требований законодательства.",
+      },
+      {
+        question: "Чем отличается банкротство от восстановления платежеспособности?",
+        answer:
+          "Банкротство применяется при невозможности платить по долгам, а восстановление платежеспособности направлено на урегулирование обязательств без полного прекращения финансовой деятельности.",
+      },
+    ],
+    relatedSlugs: ["debt-recovery", "legal-consultation-almaty", "civil-law"],
+  }),
+  kz: ru({
+    meta: {
+      title: "Банкроттық және төлем қабілеттілігін қалпына келтіру | Алматы",
+      description:
+        "Банкроттық, қарыздарды қайта құрылымдау және төлем қабілеттілігін қалпына келтіру бойынша заңгерлік көмек.",
+      keywords:
+        "банкроттық Алматы, төлем қабілеттілігін қалпына келтіру, қарыз бойынша заңгер",
+    },
+    h1: "Банкроттық және төлем қабілеттілігін қалпына келтіру",
+    intro:
+      "Қарыздар, банкроттық рәсімі және төлем қабілеттілігін қалпына келтіру бойынша заңгерлік сүйемелдеу.",
+    includes: [
+      "Банкроттық бойынша кеңес",
+      "Қарыз жағдайын талдау",
+      "Құжаттарды дайындау",
+      "Төлем қабілеттілігін қалпына келтіру бойынша сүйемелдеу",
+      "Кредиторлармен жұмыс",
+    ],
+    whenNeeded: [
+      "Несие немесе қарыз бойынша кешіктіру бар",
+      "Қаржылық міндеттемелерді орындау қиын",
+      "Банкроттық тәуекелін бағалау қажет",
+      "Қарызды заңды түрде реттеу керек",
+    ],
+    processSteps: [
+      "Алғашқы кеңес",
+      "Қарыздар мен кірістерді талдау",
+      "Тиісті рәсімді таңдау",
+      "Құжаттарды дайындау",
+      "Процесті сүйемелдеу",
+    ],
+    documents: [
+      "Жеке куәлік",
+      "Несие шарттары",
+      "Қарыз туралы анықтамалар",
+      "Кірістер туралы мәліметтер",
+      "Мүлік құжаттары",
+    ],
+    faq: [
+      {
+        question: "Банкроттық арқылы қарыздан құтылуға бола ма?",
+        answer:
+          "Бұл қарыз түріне, қаржылық жағдайға және заң талаптарының сақталуына байланысты.",
+      },
+    ],
+    relatedSlugs: ["debt-recovery", "legal-consultation-almaty"],
+  }),
+  en: ru({
+    meta: {
+      title: "Bankruptcy and Solvency Restoration in Almaty",
+      description:
+        "Legal support for bankruptcy, debt restructuring, solvency restoration, and debtor protection in Kazakhstan.",
+      keywords:
+        "bankruptcy Almaty, solvency restoration, debt restructuring Kazakhstan, bankruptcy lawyer",
+    },
+    h1: "Bankruptcy and Solvency Restoration",
+    intro:
+      "Legal support for bankruptcy matters, debt analysis, solvency restoration, and lawful resolution of financial obligations.",
+    includes: [
+      "Bankruptcy consultation",
+      "Debt and financial position analysis",
+      "Preparation of documents",
+      "Solvency restoration support",
+      "Communication with creditors",
+    ],
+    whenNeeded: [
+      "There are overdue loans or debts",
+      "Financial obligations cannot be fulfilled",
+      "Bankruptcy risks need to be assessed",
+      "Debt restructuring is required",
+    ],
+    processSteps: [
+      "Initial consultation",
+      "Debt and income analysis",
+      "Selection of the proper procedure",
+      "Document preparation",
+      "Legal support throughout the process",
+    ],
+    documents: [
+      "Identity document",
+      "Loan agreements",
+      "Debt certificates",
+      "Income information",
+      "Property documents",
+    ],
+    faq: [
+      {
+        question: "Can debts be written off through bankruptcy?",
+        answer:
+          "It depends on the type of debt, financial situation, and compliance with legal requirements.",
+      },
+    ],
+    relatedSlugs: ["debt-recovery", "legal-consultation-almaty"],
+  }),
+},
+"inheritance-law": {
+  ru: ru({
+    meta: {
+      title: "Наследственное право в Алматы",
+      description:
+        "Юридическая помощь по наследственным делам: оформление наследства, споры между наследниками, восстановление сроков и сопровождение документов.",
+      keywords:
+        "наследственное право Алматы, наследство юрист, оформление наследства, наследственные споры",
+    },
+    h1: "Наследственное право",
+    intro:
+      "Сопровождение наследственных вопросов: оформление прав, подготовка документов, урегулирование споров между наследниками и защита интересов клиента.",
+    includes: [
+      "Консультация по вопросам наследства",
+      "Оформление наследственных прав",
+      "Восстановление срока принятия наследства",
+      "Споры между наследниками",
+      "Подготовка заявлений и процессуальных документов",
+    ],
+    whenNeeded: [
+      "Нужно оформить наследство",
+      "Пропущен срок принятия наследства",
+      "Есть спор между наследниками",
+      "Необходимо подтвердить право на имущество",
+    ],
+    processSteps: [
+      "Анализ наследственной ситуации",
+      "Проверка документов и сроков",
+      "Подготовка заявлений",
+      "Досудебное урегулирование или обращение в суд",
+      "Сопровождение до завершения дела",
+    ],
+    documents: [
+      "Свидетельство о смерти",
+      "Документы, подтверждающие родство",
+      "Документы на имущество",
+      "Завещание при наличии",
+      "Переписка или нотариальные документы",
+    ],
+    faq: [
+      {
+        question: "Что делать, если срок принятия наследства пропущен?",
+        answer:
+          "В отдельных случаях срок можно восстановить через суд, если есть уважительные причины и подтверждающие документы.",
+      },
+      {
+        question: "Можно ли решить наследственный спор без суда?",
+        answer:
+          "Да, если стороны готовы к переговорам. Если договориться невозможно, спор решается в судебном порядке.",
+      },
+    ],
+    relatedSlugs: ["civil-law", "court-representation", "legal-consultation-almaty"],
+  }),
+  kz: ru({
+    meta: {
+      title: "Мұрагерлік құқық | Алматы",
+      description:
+        "Мұра рәсімдеу, мұрагерлер арасындағы даулар, мерзімді қалпына келтіру және құжаттарды сүйемелдеу бойынша заңгерлік көмек.",
+      keywords: "мұрагерлік құқық Алматы, мұра рәсімдеу, мұра дауы",
+    },
+    h1: "Мұрагерлік құқық",
+    intro:
+      "Мұрагерлік мәселелер бойынша кеңес, құжаттарды дайындау және мұрагерлер арасындағы дауларды сүйемелдеу.",
+    includes: [
+      "Мұра бойынша кеңес",
+      "Мұрагерлік құқықтарды рәсімдеу",
+      "Мұра қабылдау мерзімін қалпына келтіру",
+      "Мұрагерлер арасындағы даулар",
+      "Өтініштер мен құжаттарды дайындау",
+    ],
+    whenNeeded: [
+      "Мұраны рәсімдеу қажет",
+      "Мұра қабылдау мерзімі өтіп кеткен",
+      "Мұрагерлер арасында дау бар",
+      "Мүлікке құқықты растау керек",
+    ],
+    processSteps: [
+      "Жағдайды талдау",
+      "Құжаттар мен мерзімдерді тексеру",
+      "Өтініштерді дайындау",
+      "Келіссөз немесе сотқа жүгіну",
+      "Істі аяқтауға дейін сүйемелдеу",
+    ],
+    documents: [
+      "Қайтыс болу туралы куәлік",
+      "Туыстықты растайтын құжаттар",
+      "Мүлік құжаттары",
+      "Өсиет болса",
+    ],
+    faq: [
+      {
+        question: "Мұра қабылдау мерзімі өтіп кетсе не істеу керек?",
+        answer:
+          "Негізді себептер болса, мерзімді сот арқылы қалпына келтіруге болады.",
+      },
+    ],
+    relatedSlugs: ["civil-law", "court-representation"],
+  }),
+  en: ru({
+    meta: {
+      title: "Inheritance Law in Almaty",
+      description:
+        "Legal assistance with inheritance matters, documentation, disputes between heirs, and restoration of inheritance acceptance deadlines.",
+      keywords: "inheritance law Almaty, inheritance dispute Kazakhstan, inheritance lawyer",
+    },
+    h1: "Inheritance Law",
+    intro:
+      "Legal support in inheritance matters, including documentation, disputes between heirs, and protection of inheritance rights.",
+    includes: [
+      "Inheritance consultation",
+      "Inheritance rights registration",
+      "Restoration of missed deadlines",
+      "Disputes between heirs",
+      "Preparation of legal documents",
+    ],
+    whenNeeded: [
+      "Inheritance needs to be formalized",
+      "The inheritance acceptance deadline was missed",
+      "There is a dispute between heirs",
+      "Property rights need to be confirmed",
+    ],
+    processSteps: [
+      "Case assessment",
+      "Document and deadline review",
+      "Preparation of applications",
+      "Negotiation or court filing",
+      "Legal support until completion",
+    ],
+    documents: [
+      "Death certificate",
+      "Documents proving family relationship",
+      "Property documents",
+      "Will, if available",
+    ],
+    faq: [
+      {
+        question: "What if the inheritance deadline was missed?",
+        answer:
+          "In certain cases, the deadline may be restored through court if valid reasons are proven.",
+      },
+    ],
+    relatedSlugs: ["civil-law", "court-representation"],
+  }),
+},
+"labor-law": {
+  ru: ru({
+    meta: {
+      title: "Трудовое право в Алматы",
+      description:
+        "Юридические консультации по трудовым спорам, увольнению, трудовым договорам, выплатам и защите прав работников и работодателей.",
+      keywords:
+        "трудовое право Алматы, трудовой спор юрист, увольнение, трудовой договор, защита прав работника",
+    },
+    h1: "Трудовое право",
+    intro:
+      "Консультации и сопровождение по трудовым вопросам: договоры, увольнение, выплаты, дисциплинарные меры и защита прав сторон.",
+    includes: [
+      "Консультации по трудовым спорам",
+      "Проверка и подготовка трудовых договоров",
+      "Вопросы увольнения и восстановления на работе",
+      "Взыскание заработной платы и компенсаций",
+      "Защита интересов работников и работодателей",
+    ],
+    whenNeeded: [
+      "Возник спор с работодателем или работником",
+      "Есть вопросы по увольнению",
+      "Не выплачена зарплата или компенсация",
+      "Нужно проверить трудовой договор",
+    ],
+    processSteps: [
+      "Изучение документов и обстоятельств",
+      "Оценка правовой позиции",
+      "Подготовка претензии или заявления",
+      "Переговоры или обращение в уполномоченные органы",
+      "Судебное сопровождение при необходимости",
+    ],
+    documents: [
+      "Трудовой договор",
+      "Приказы работодателя",
+      "Расчетные листы",
+      "Переписка",
+      "Документы о выплатах",
+    ],
+    faq: [
+      {
+        question: "Можно ли оспорить незаконное увольнение?",
+        answer:
+          "Да, если увольнение проведено с нарушением закона или процедуры, его можно оспорить в установленном порядке.",
+      },
+      {
+        question: "Что делать, если не выплачивают заработную плату?",
+        answer:
+          "Необходимо собрать подтверждающие документы и обратиться с требованием к работодателю, в уполномоченные органы или суд.",
+      },
+    ],
+    relatedSlugs: ["legal-consultation-almaty", "court-representation", "civil-law"],
+  }),
+  kz: ru({
+    meta: {
+      title: "Еңбек құқығы | Алматы",
+      description:
+        "Еңбек даулары, жұмыстан шығару, еңбек шарттары, жалақы және тараптардың құқықтарын қорғау бойынша заңгерлік кеңес.",
+      keywords: "еңбек құқығы Алматы, еңбек дауы, жұмыстан шығару, еңбек шарты",
+    },
+    h1: "Еңбек құқығы",
+    intro:
+      "Еңбек шарттары, жұмыстан шығару, төлемдер және еңбек даулары бойынша заңгерлік кеңес.",
+    includes: [
+      "Еңбек даулары бойынша кеңес",
+      "Еңбек шарттарын тексеру",
+      "Жұмыстан шығару мәселелері",
+      "Жалақы мен өтемақыны өндіріп алу",
+      "Жұмысшы мен жұмыс беруші мүддесін қорғау",
+    ],
+    whenNeeded: [
+      "Жұмыс берушімен немесе қызметкермен дау туындады",
+      "Жұмыстан шығару бойынша сұрақ бар",
+      "Жалақы төленбеді",
+      "Еңбек шартын тексеру қажет",
+    ],
+    processSteps: [
+      "Құжаттарды талдау",
+      "Құқықтық позицияны бағалау",
+      "Талап немесе өтініш дайындау",
+      "Келіссөз немесе уәкілетті органға жүгіну",
+      "Қажет болса сотта сүйемелдеу",
+    ],
+    documents: [
+      "Еңбек шарты",
+      "Жұмыс берушінің бұйрықтары",
+      "Төлем құжаттары",
+      "Хат алмасу",
+    ],
+    faq: [
+      {
+        question: "Заңсыз жұмыстан шығаруды даулауға бола ма?",
+        answer:
+          "Иә, егер заң немесе рәсім талаптары бұзылса, жұмыстан шығаруды даулауға болады.",
+      },
+    ],
+    relatedSlugs: ["legal-consultation-almaty", "court-representation"],
+  }),
+  en: ru({
+    meta: {
+      title: "Labor Law in Almaty",
+      description:
+        "Legal consultations on labor disputes, dismissal, employment contracts, payments, and protection of employee and employer rights.",
+      keywords: "labor law Almaty, employment dispute Kazakhstan, employment contract lawyer",
+    },
+    h1: "Labor Law",
+    intro:
+      "Legal advice and support on employment contracts, dismissal, payments, workplace disputes, and protection of rights.",
+    includes: [
+      "Labor dispute consultations",
+      "Review and preparation of employment contracts",
+      "Dismissal and reinstatement matters",
+      "Salary and compensation claims",
+      "Protection of employee and employer interests",
+    ],
+    whenNeeded: [
+      "There is a dispute with an employer or employee",
+      "Dismissal needs to be reviewed",
+      "Salary or compensation was not paid",
+      "An employment contract needs legal review",
+    ],
+    processSteps: [
+      "Document and case review",
+      "Legal position assessment",
+      "Preparation of claim or application",
+      "Negotiation or filing with authorities",
+      "Court representation if needed",
+    ],
+    documents: [
+      "Employment contract",
+      "Employer orders",
+      "Payslips",
+      "Correspondence",
+      "Payment documents",
+    ],
+    faq: [
+      {
+        question: "Can unlawful dismissal be challenged?",
+        answer:
+          "Yes, if the dismissal violated legal or procedural requirements, it may be challenged.",
+      },
+    ],
+    relatedSlugs: ["legal-consultation-almaty", "court-representation"],
+  }),
+},
+"ip-registration": {
+  ru: ru({
+    meta: {
+      title: "Регистрация ИП в Алматы",
+      description:
+        "Помощь в регистрации индивидуального предпринимателя: выбор режима, подготовка документов, консультация по налоговым и правовым вопросам.",
+      keywords:
+        "регистрация ИП Алматы, открыть ИП Казахстан, юридическая помощь ИП, регистрация индивидуального предпринимателя",
+    },
+    h1: "Регистрация ИП",
+    intro:
+      "Юридическая помощь при регистрации индивидуального предпринимателя: консультация, выбор подходящего режима и подготовка необходимых документов.",
+    includes: [
+      "Консультация перед регистрацией ИП",
+      "Выбор подходящего режима деятельности",
+      "Подготовка документов",
+      "Разъяснение прав и обязанностей ИП",
+      "Первичная консультация по договорам и налоговым рискам",
+    ],
+    whenNeeded: [
+      "Планируете начать предпринимательскую деятельность",
+      "Нужно правильно выбрать форму и режим работы",
+      "Есть вопросы по документам и обязательствам ИП",
+      "Нужно оформить деятельность законно и без лишних рисков",
+    ],
+    processSteps: [
+      "Первичная консультация",
+      "Определение вида деятельности",
+      "Подготовка данных и документов",
+      "Сопровождение регистрации",
+      "Разъяснение дальнейших правовых шагов",
+    ],
+    documents: [
+      "Удостоверение личности",
+      "Номер телефона",
+      "Адрес регистрации",
+      "Информация о виде деятельности",
+      "Дополнительные документы при необходимости",
+    ],
+    faq: [
+      {
+        question: "Можно ли зарегистрировать ИП онлайн?",
+        answer:
+          "Да, в большинстве случаев регистрация ИП возможна онлайн, но важно заранее правильно определить вид деятельности и режим работы.",
+      },
+      {
+        question: "Нужна ли консультация перед открытием ИП?",
+        answer:
+          "Консультация помогает избежать ошибок при выборе режима, оформлении документов и дальнейшей работе с договорами.",
+      },
+    ],
+    relatedSlugs: ["business-legal-support", "contract-drafting", "legal-consultation-almaty"],
+  }),
+  kz: ru({
+    meta: {
+      title: "ЖК тіркеу | Алматы",
+      description:
+        "Жеке кәсіпкерді тіркеу, қызмет түрін таңдау, құжаттарды дайындау және құқықтық сұрақтар бойынша кеңес.",
+      keywords: "ЖК тіркеу Алматы, жеке кәсіпкер ашу, ЖК заңгерлік көмек",
+    },
+    h1: "ЖК тіркеу",
+    intro:
+      "Жеке кәсіпкерді тіркеу бойынша заңгерлік көмек: кеңес, қызмет бағытын анықтау және құжаттарды дайындау.",
+    includes: [
+      "ЖК тіркеу алдындағы кеңес",
+      "Қызмет бағытын анықтау",
+      "Құжаттарды дайындау",
+      "ЖК құқықтары мен міндеттерін түсіндіру",
+      "Шарттар мен құқықтық тәуекелдер бойынша бастапқы кеңес",
+    ],
+    whenNeeded: [
+      "Кәсіпкерлік қызметті бастағыңыз келеді",
+      "Қызмет формасын дұрыс таңдау қажет",
+      "Құжаттар бойынша сұрақтар бар",
+      "Қызметті заңды түрде рәсімдеу керек",
+    ],
+    processSteps: [
+      "Алғашқы кеңес",
+      "Қызмет түрін анықтау",
+      "Құжаттарды дайындау",
+      "Тіркеуді сүйемелдеу",
+      "Келесі құқықтық қадамдарды түсіндіру",
+    ],
+    documents: [
+      "Жеке куәлік",
+      "Телефон нөмірі",
+      "Тіркеу мекенжайы",
+      "Қызмет түрі туралы ақпарат",
+    ],
+    faq: [
+      {
+        question: "ЖК онлайн тіркеуге бола ма?",
+        answer:
+          "Иә, көп жағдайда ЖК онлайн тіркеледі, бірақ қызмет түрін және жұмыс режимін дұрыс анықтау маңызды.",
+      },
+    ],
+    relatedSlugs: ["business-legal-support", "contract-drafting"],
+  }),
+  en: ru({
+    meta: {
+      title: "Individual Entrepreneur Registration in Almaty",
+      description:
+        "Assistance with individual entrepreneur registration, business activity selection, document preparation, and initial legal consultation.",
+      keywords:
+        "individual entrepreneur registration Almaty, IE registration Kazakhstan, business registration legal support",
+    },
+    h1: "Individual Entrepreneur Registration",
+    intro:
+      "Legal assistance with individual entrepreneur registration, including consultation, activity selection, and document preparation.",
+    includes: [
+      "Consultation before registration",
+      "Selection of business activity",
+      "Document preparation",
+      "Explanation of rights and obligations",
+      "Initial consultation on contracts and legal risks",
+    ],
+    whenNeeded: [
+      "You plan to start business activity",
+      "The proper business format needs to be selected",
+      "There are questions about documents and obligations",
+      "Business activity needs to be registered lawfully",
+    ],
+    processSteps: [
+      "Initial consultation",
+      "Business activity definition",
+      "Preparation of documents",
+      "Registration support",
+      "Explanation of further legal steps",
+    ],
+    documents: [
+      "Identity document",
+      "Phone number",
+      "Registration address",
+      "Information about business activity",
+    ],
+    faq: [
+      {
+        question: "Can an individual entrepreneur be registered online?",
+        answer:
+          "Yes, in most cases registration can be completed online, but it is important to choose the proper activity and working format.",
+      },
+    ],
+    relatedSlugs: ["business-legal-support", "contract-drafting"],
+  }),
+},
 };
 
 export function isServiceSlug(value: string): value is ServiceSlug {

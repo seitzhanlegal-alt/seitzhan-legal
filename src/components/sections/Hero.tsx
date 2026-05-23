@@ -60,7 +60,7 @@ export function Hero() {
               <div className="rounded-xl bg-white/5 p-4 ring-1 ring-white/10 transition hover:ring-[#c9a24d]/40">
                 <dt className="text-white/60">{t.about.cards.consultations.title}</dt>
                 <dd className="mt-2 font-display text-2xl font-semibold text-[#e6c77c]">
-                  300+
+                  1000+
                 </dd>
               </div>
               <div className="col-span-2 rounded-xl border border-[#c9a24d]/30 bg-[#c9a24d]/10 p-4">

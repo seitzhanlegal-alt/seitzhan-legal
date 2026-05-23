@@ -9,6 +9,10 @@ export const SERVICE_SLUGS = [
   "business-legal-support",
   "debt-recovery",
   "civil-law",
+  "bankruptcy-solvency",
+"inheritance-law",
+"labor-law",
+"ip-registration",
 ] as const;
 
 export type ServiceSlug = (typeof SERVICE_SLUGS)[number];

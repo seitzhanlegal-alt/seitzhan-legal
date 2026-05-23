@@ -42,4 +42,24 @@ export const serviceShortTitles: Record<ServiceSlug, Record<Lang, string>> = {
     kz: "Азаматтық істер",
     en: "Civil law cases",
   },
+  "bankruptcy-solvency": {
+  ru: "Банкротство",
+  kz: "Банкроттық",
+  en: "Bankruptcy",
+},
+"inheritance-law": {
+  ru: "Наследственное право",
+  kz: "Мұрагерлік құқық",
+  en: "Inheritance Law",
+},
+"labor-law": {
+  ru: "Трудовое право",
+  kz: "Еңбек құқығы",
+  en: "Labor Law",
+},
+"ip-registration": {
+  ru: "Регистрация ИП",
+  kz: "ЖК тіркеу",
+  en: "IE Registration",
+},
 };

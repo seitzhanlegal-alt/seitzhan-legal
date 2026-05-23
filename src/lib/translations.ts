@@ -118,7 +118,7 @@ export const translations: Record<Lang, TranslationTree> = {
           body: "Representing clients in negotiations, pre-trial stages, and court proceedings across civil and commercial matters.",
         },
         consultations: {
-          title: "300+ consultations",
+          title: "1000+ consultations",
           body: "Structured sessions with written follow-ups where needed, so you always understand the next step.",
         },
         confidential: {
@@ -288,7 +288,7 @@ export const translations: Record<Lang, TranslationTree> = {
     },
     brand: {
       firmName: "Seitzhan Legal",
-      lawyerTitle: "Yerkhoja Seitjan, Attorney-at-Law",
+      lawyerTitle: "Yerkhoja Seitjan, Lawyer-consultant",
     },
     waPrefill: "Hello, I would like to get a legal consultation.",
     office: {
@@ -328,12 +328,12 @@ export const translations: Record<Lang, TranslationTree> = {
           body: "Сопровождение клиентов на этапах переговоров, досудебного урегулирования и судебного разбирательства по гражданским и коммерческим спорам.",
         },
         consultations: {
-          title: "300+ консультаций",
+          title: "1000+ консультаций",
           body: "Структурированные сессии и при необходимости письменные итоги, чтобы вы понимали следующий шаг.",
         },
         confidential: {
           title: "Конфиденциальность",
-          body: "Принципы адвокатской тайны, аккуратная работа с документами и деликатные каналы связи.",
+          body: "Принципы юридической тайны, аккуратная работа с документами и деликатные каналы связи.",
         },
         approach: {
           title: "Индивидуальный подход",
@@ -473,7 +473,7 @@ export const translations: Record<Lang, TranslationTree> = {
     contact: {
       title: "Контакты",
       subtitle: "Кратко опишите ситуацию — мы предложим самый быстрый безопасный маршрут.",
-      lawyerName: "Адвокат",
+      lawyerName: "Юрист-консультант",
       phoneLabel: "Телефон",
       emailLabel: "Электронная почта",
       addressLabel: "Адрес офиса",
@@ -484,7 +484,7 @@ export const translations: Record<Lang, TranslationTree> = {
         phone: "Телефон",
         message: "Сообщение",
         submit: "Отправить запрос",
-        note: "Отправка формы не создаёт адвокатско-клиентские отношения до отдельного письменного подтверждения.",
+        note: "Отправка формы не создаёт юридически-клиентские отношения до отдельного письменного подтверждения.",
         success:
           "Спасибо. Мы получили ваше сообщение и свяжемся с вами в ближайшее время.",
       },
@@ -498,7 +498,7 @@ export const translations: Record<Lang, TranslationTree> = {
     },
     brand: {
       firmName: "Seitzhan Legal",
-      lawyerTitle: "Еркожа Сейтжан, адвокат",
+      lawyerTitle: "Еркожа Сейтжан, юрист-консультант",
     },
     waPrefill: "Здравствуйте, я хотел(а) бы получить юридическую консультацию.",
     office: {
@@ -538,7 +538,7 @@ export const translations: Record<Lang, TranslationTree> = {
           body: "Клиенттерді келіссөздер, сотқа дейінгі кезеңдер және азаматтық-қаржылық даулар бойынша сот талқылаулары кезінде сүйемелдеу.",
         },
         consultations: {
-          title: "300+ кеңес",
+          title: "1000+ кеңес",
           body: "Құрылымдалған кездесулер және қажет болса жазбаша қорытындылар — келесі қадамды түсінесіз.",
         },
         confidential: {
@@ -683,7 +683,7 @@ export const translations: Record<Lang, TranslationTree> = {
     contact: {
       title: "Байланыс",
       subtitle: "Мәселені қысқаша сипаттаңыз — ең жылдам және қауіпсіз жолды ұсынамыз.",
-      lawyerName: "Адвокат",
+      lawyerName: "Юрист-консультант",
       phoneLabel: "Телефон",
       emailLabel: "Электрондық пошта",
       addressLabel: "Кеңсе мекенжайы",
@@ -708,7 +708,7 @@ export const translations: Record<Lang, TranslationTree> = {
     },
     brand: {
       firmName: "Seitzhan Legal",
-      lawyerTitle: "Ерқожа Сейтжан, адвокат",
+      lawyerTitle: "Ерқожа Сейтжан, юрист-консультант",
     },
     waPrefill: "Сәлеметсіз бе, мен заңгерлік кеңес алғым келеді.",
     office: {

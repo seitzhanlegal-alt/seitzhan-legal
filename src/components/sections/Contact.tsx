@@ -12,33 +12,41 @@ export function Contact() {
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
   
-    const formData = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
   
     const name = String(formData.get("name") || "");
     const phone = String(formData.get("phone") || "");
     const message = String(formData.get("message") || "");
   
-    const response = await fetch("https://seitzhanlegalbot.onrender.com/api/lead", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name,
-        phone,
-        message,
-      }),
-    });
+    try {
+      const response = await fetch("https://seitzhanlegalbot.onrender.com/api/lead", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          phone,
+          message,
+        }),
+      });
   
-    if (!response.ok) {
+      if (!response.ok) {
+        alert("Ошибка при отправке заявки");
+        return;
+      }
+  
+      form.reset();
+      setSent(true);
+  
+      setTimeout(() => {
+        setSent(false);
+      }, 5000);
+    } catch (error) {
       alert("Ошибка при отправке заявки");
-      return;
     }
-  
-    setSent(true);
-    e.currentTarget.reset();
   }
-
   return (
     <section id="contact" className="bg-[#f7f8fa] py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
